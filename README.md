@@ -19,14 +19,10 @@ the queries, because it provides a more intuitive way to inspect and interpret t
 ## DTDM Queries
 Once you have cloned this repo and completed the vscode and codeql extension installations,
 you can use our queries to analyze any CodeQL database created from a Python source, exactly
-the same as you would any other query.
-
-The query files can be found in /codeql-custom-queries-python/
-
-If a query returns any results on a project, it is considered vulnerable by DTDM.
-If a query returns no results on a project, it is considered safe by DTDM.
-
-This should be all you need to replicate the results of our experiment.
+the same as you would any other query. The query files can be found in /codeql-custom-queries-python/
+If a query returns any results on a project, it is considered vulnerable by DTDM. If a query returns no
+results on a project, it is considered safe by DTDM. This should be all you need to replicate the results
+of our experiment.
 
 ## Real World Tests
 The databases for the tests exceeded GitHub file size limits. You can find a zip file for them here:
@@ -51,7 +47,7 @@ https://help.semmle.com/codeql/codeql-cli/procedures/get-started.html
 
 This syntax in your terminal should get you going, once you have the CLI in your path:
 
-codeql database analyze <path to db folder> <path to query file> --format=csv --output=<path to output file>
+codeql database analyze "path to db folder" "path to query file" --format=csv --output="path to output file"
     
 This may throw an error when running a path problem such as taint analysis, in which can you can try:
 
