@@ -49,9 +49,11 @@ using the CodeQL CLI. Instruction for installing the CLI can be found here:
 https://help.semmle.com/codeql/codeql-cli/procedures/get-started.html
 
 This syntax in your terminal should get you going, once you have the CLI in your path:
+
 codeql database analyze <path to db folder> <path to query file> --format=csv --output=<path to output file>
     
 This may throw an error when running a path problem such as taint analysis, in which can you can try:
+
 codeql query run --database="path to db folder" --output="path to results file" "path to query file"
 
 Alteratively, you may follow these instructions:
