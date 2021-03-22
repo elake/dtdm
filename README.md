@@ -64,8 +64,8 @@ and encounter this error, running them in vscode has always worked for us regard
 Swapping between "codeql database analyze" and "codeql query run" can also help when this happens.
 
 ## Virtual Machine
-We are working on getting a virtual machine uploaded that has everything preinstalled to make things easier.
-When it is finished, it will be found at the following link:
+This virtual machine has everyting preinstalled on Ubuntu including the test repositories, to help make
+it easier to reproduce our results:
 https://drive.google.com/drive/folders/1yc0bXcycevIa26jvV8BEbI0n93Pla-8T?usp=sharing
 
 ## Credit
