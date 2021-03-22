@@ -5,6 +5,12 @@ In order to make replicating the results easier, this is a fork of the vscode-co
 While our runtime benchmarks were created with the CodeQL CLI, we recommend using vscode when running
 the queries, because it provides a more intuitive way to inspect and interpret the results.
 
+# Paper
+
+The final draft of our paper can be found here: [Link](https://raw.githubusercontent.com/elake/dtdm/master/DTDM.pdf)
+Please ignore the conference date in the header, it was included to match the requested spec but this paper has not
+been peer reviewed or submitted for publication.
+
 # Instructions
 
 ## vs code & extension installation:
